@@ -1,0 +1,5 @@
+task check {
+	doLast {
+		println 'Build is running right now'
+	}
+}
