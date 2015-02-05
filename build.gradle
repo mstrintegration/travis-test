@@ -3,3 +3,8 @@ task check {
 		println 'Build is running right now'
 	}
 }
+task assemble {
+	doLast {
+		println 'Assembling'
+	}
+}
