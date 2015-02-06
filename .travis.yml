@@ -5,4 +5,4 @@ before_install:
   - unzip -qq gradle-2.2.1-bin.zip
   - export GRADLE_HOME=$PWD/gradle-2.2.1
   - export PATH=$GRADLE_HOME/bin:$PATH
-  - chmod +x gradle
+  - chmod +x gradle-2.2.1
